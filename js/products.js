@@ -4,7 +4,7 @@
  fetch(URL_InfoAutos)
  .then(res => res.json())
  .then(res => {
-console.log(res.products);
+
 MostrarData(res.products)
  })
 
@@ -14,8 +14,9 @@ MostrarData(res.products)
 
     for (const item of dataArray) {
       
-      productos.innerHTML += `<div><img src="${item.image}" style>  <h1>${item.name} -${item.currency} ${item.cost}</h1> <p>${item.soldCount} vendidos</p>
+      productos.innerHTML += `<div class="cuadrante"> <img src="${item.image}"> <div><h2>${item.name} 
+      ${item.currency} ${item.cost}</h2> <p class ="descripcion"> ${item.description} </p></div> <div><p class ="vendidos">${item.soldCount} vendidos</p></div>
       
-      <p> ${item.description} </p></div>`; 
+      </div>`; 
     }
   }

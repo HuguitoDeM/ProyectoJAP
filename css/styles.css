@@ -188,3 +188,34 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+#productos .cuadrante{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+  border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 2%; 
+}
+
+#productos img{
+height: 180px;
+}
+
+#productos h2{
+  margin-bottom: 10%;
+  white-space: nowrap;
+}
+.vendidos{
+  margin: 0;
+  font-size: 12px;
+  color: #999;
+  white-space: nowrap;
+  
+}
+
+.descripcion{
+  margin: 0;
+  font-size: 14px;
+}
+
