@@ -190,6 +190,15 @@ a.custom-card:hover {
 }
 
 
+h1.titulo-autos {
+  text-align: center;
+  font-size: 50px;
+}
+p.parrafo-autos {
+  text-align: center;
+  font-size: 15px;
+}
+
 div .cuadrante{
   height: 200px;
 }
@@ -224,9 +233,9 @@ div h2{
 }
 
 p.descripcion{
-  height: 100px; /* Establece una altura fija para los párrafos */
+  height: 100px; 
   width: 700px;
-  margin-top: -65px; /* Espaciado entre el título y la descripción */
+  margin-top: -65px; 
 
 }
 
