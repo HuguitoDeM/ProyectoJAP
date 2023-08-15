@@ -198,6 +198,7 @@ div .cuadrante{
     flex-wrap: wrap;
     gap: 2%;
   border: 1px solid #ccc;
+    padding: 10px;
     margin-top: 2%; 
 }
 
@@ -212,16 +213,22 @@ height: 180px;
 }
 
 
-
-div .vendidos{
+div.vendidos{
   margin: 0 0 0 auto;
-  color: #a7a7a7;
+  color: #CACFD2;
 
 }
 
-.descripcion{
+div h2{
   margin: 0;
-  font-size: 14px;
-  padding: 10px;
+
+
+}
+
+p.descripcion{
+  height: 100px; /* Establece una altura fija para los párrafos */
+  width: 700px;
+  margin-top: -65px; /* Espaciado entre el título y la descripción */
+
 }
 
