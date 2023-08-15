@@ -189,6 +189,7 @@ a.custom-card:hover {
   color: orange;
 }
 
+
 h1.titulo-autos {
   text-align: center;
   font-size: 50px;
@@ -197,6 +198,7 @@ p.parrafo-autos {
   text-align: center;
   font-size: 15px;
 }
+
 div .cuadrante{
   height: 200px;
 }
@@ -223,9 +225,7 @@ height: 180px;
 div.vendidos{
   margin: 0 0 0 auto;
   color: #CACFD2;
-
 }
-
 div h2{
   margin: 0;
 
