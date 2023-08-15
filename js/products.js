@@ -15,7 +15,7 @@ MostrarData(res.products)
     for (const item of dataArray) {
       
       productos.innerHTML += `<div class="cuadrante"> <img src="${item.image}"> <div><h2>${item.name} 
-      ${item.currency} ${item.cost}</h2> <p class ="descripcion"> ${item.description} </p></div> <div><p class ="vendidos">${item.soldCount} vendidos</p></div>
+      ${item.currency} ${item.cost}</h2> <p class ="descripcion"> ${item.description} </p></div> <div class ="vendidos"><p >${item.soldCount} vendidos</p></div>
       
       </div>`; 
     }

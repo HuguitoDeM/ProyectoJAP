@@ -194,7 +194,6 @@ a.custom-card:hover {
     flex-wrap: wrap;
     gap: 2%;
   border: 1px solid #ccc;
-    padding: 10px;
     margin-top: 2%; 
 }
 
@@ -205,17 +204,18 @@ height: 180px;
 #productos h2{
   margin-bottom: 10%;
   white-space: nowrap;
+  padding: 10px;
 }
 .vendidos{
-  margin: 0;
+  position: relative;
   font-size: 12px;
   color: #999;
   white-space: nowrap;
-  
 }
 
 .descripcion{
   margin: 0;
   font-size: 14px;
+  padding: 10px;
 }
 
