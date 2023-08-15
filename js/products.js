@@ -16,6 +16,7 @@ MostrarData(res.products)
       
       productos.innerHTML += `<div class="cuadrante"> <img src="${item.image}"> <div><h2>${item.name} 
       ${item.currency} ${item.cost}</h2> <p class ="descripcion"> ${item.description} </p></div> <div class="vendidos"> ${item.soldCount} vendidos</div>
+
       
       </div>`; 
     }
