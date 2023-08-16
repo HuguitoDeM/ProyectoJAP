@@ -206,9 +206,14 @@ div .cuadrante{
     display: flex;
     flex-wrap: wrap;
     gap: 2%;
-  border: 1px solid #ccc;
+  border: 1px solid #7C9082;
     padding: 10px;
     margin-top: 2%; 
+    transition: filter 0.3s;
+}
+
+.cuadrante:hover {
+  filter: brightness(1.3); /* Brillantez aumentada al poner el mouse encima */
 }
 
 #productos img{
