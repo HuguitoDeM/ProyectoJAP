@@ -191,8 +191,9 @@ a.custom-card:hover {
 
 
 h1.titulo-autos {
+  font-family: 'Oswald', sans-serif;
   text-align: center;
-  font-size: 50px;
+  font-size: 53px;
 }
 p.parrafo-autos {
   text-align: center;
@@ -201,6 +202,7 @@ p.parrafo-autos {
 
 div .cuadrante{
   height: 200px;
+  overflow: hidden;
 }
 #productos .cuadrante{
     display: flex;
@@ -222,11 +224,13 @@ height: 180px;
 }
 
 #productos h2{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Play', sans-serif;
   margin-bottom: 10%;
   white-space: nowrap;
   font-size: 30px;
 }
+
+
 
 div .vendidos{
   margin: 0 0 0 auto;
