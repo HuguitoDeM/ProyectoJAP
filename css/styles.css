@@ -255,3 +255,6 @@ p.descripcion{
   margin: 0 auto;
 }
 
+div.cuadrante{
+ overflow: hidden;
+}
