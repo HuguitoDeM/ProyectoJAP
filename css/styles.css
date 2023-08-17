@@ -221,9 +221,6 @@ height: 180px;
 }
 
 #productos h2{
-  font-family: 'Fjalla One', sans-serif;
-  font-family: 'Libre Baskerville', serif;
-  font-family: 'Oswald', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
   margin-bottom: 10%;
   white-space: nowrap;
@@ -245,5 +242,13 @@ p.descripcion{
   width: 700px;
   margin-top: -65px; 
 
+}
+
+
+.responsive-lottie {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
