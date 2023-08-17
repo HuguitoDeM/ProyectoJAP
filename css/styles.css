@@ -221,13 +221,23 @@ height: 180px;
 }
 
 #productos h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   margin-bottom: 10%;
   white-space: nowrap;
   font-size: 30px;
 }
 
+#productos h2:hover{
+  font-size: 33px;
+  background-color: black;
+  color: white;
+}
 
-div.vendidos{
+
+div .vendidos{
   margin: 0 0 0 auto;
   color:#6c757d!important; 
 }
